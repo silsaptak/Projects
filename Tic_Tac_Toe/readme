@@ -1,0 +1,20 @@
+# Tic Tac Toe
+
+A simple implementation of the classic Tic Tac Toe game using HTML, CSS, and JavaScript.
+
+## Description
+
+This project is a web-based Tic Tac Toe game where two players can play against each other. The game keeps track of the turns, checks for a winner after each move, and displays the winner or a draw message when the game ends.
+
+## Features
+
+- Two-player game (Player X and Player O)
+- Displays winner or draw message
+- Reset button to restart the game
+
+## Installation
+
+ Clone the repository:
+   ```sh
+   git clone <repository_url>
+   cd TicTacToe
