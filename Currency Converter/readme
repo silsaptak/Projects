@@ -1,0 +1,43 @@
+#Currency Converter
+A web-based application for converting currency values using real-time exchange rates.
+
+#Description
+This project allows users to convert an amount from one currency to another. The application fetches the latest exchange rates from an external API and displays the equivalent value in the selected currency. It also shows the flags of the selected currencies.
+
+Features
+Convert between multiple currencies
+Real-time exchange rate updates
+Display of corresponding country flags
+Input validation for amount entry
+Dropdown selection for "From" and "To" currencies
+Installation
+Clone the repository:
+
+sh
+Copy code
+git clone <repository_url>
+cd CurrencyConverter
+Set up the API Key:
+Replace the placeholder b10e4ca16da0addfa856476d in app.js with your own API key from ExchangeRate-API.
+
+Open the application:
+Open the index.html file in your preferred web browser to start using the application.
+
+Usage
+Enter Amount: Enter the amount you wish to convert in the input field.
+Select Currencies: Choose the currencies to convert from and to using the dropdown menus.
+Get Exchange Rate: Click the "GET EXCHANGE RATE" button to see the converted value and the current exchange rate.
+Additional Notes
+Ensure you have an active internet connection to fetch real-time exchange rates.
+The flags are fetched from an external source based on the currency code.
+License
+This project is open-source and available for modification and distribution.
+
+Acknowledgments
+ExchangeRate-API: For providing the exchange rate data.
+Flags API: For the country flags.
+
+
+
+
+
